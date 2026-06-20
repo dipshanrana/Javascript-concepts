@@ -22,3 +22,11 @@ console.log("5"+5)
 console.log(10/0)
 console.log(Math.pow(2,3))
 
+
+let a = true;
+
+a &&= 4;
+console.log(a)
+
+//??= when the value is null of undefiuned
+
