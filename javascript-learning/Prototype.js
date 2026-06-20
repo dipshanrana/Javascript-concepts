@@ -34,3 +34,14 @@ let name = "dipshan" ;
 name = name.toUpperCase()
 console.log(name)
 console.log(typeof(name))
+
+console.log(2**3)
+
+let x = 4
+
+console.log(++x)
+
+console.log(x++)
+
+x +=4
+

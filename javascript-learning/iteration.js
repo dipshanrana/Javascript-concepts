@@ -33,21 +33,20 @@
 // }
 // while(i<7);
 
-const arr = [10,20,30,40]
+// const arr = [10,20,30,40]
 
-for(const value of arr){
-    console.log()
-}
-
-
-for(const char of "okay"){
-    console.log(char)
-}
+// for(const value of arr){
+//     console.log()
+// }
 
 
-for(let j = 0 ; j<=5 ; j++){
-   if(j==1)
-    break;
+// for(const char of "okay"){
+//     console.log(char)
+// }
 
-   console.log(j)
-}
+
+// for(let j = 0 ; j<=5 ; j++){
+//    if(j==1)
+//     break;
+//    console.log(j)
+// }
