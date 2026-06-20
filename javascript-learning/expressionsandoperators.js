@@ -50,3 +50,35 @@
 
 
 //logical operators
+
+console.log(true&&false)
+console.log(true&&true)
+
+console.log(false|| true)
+console.log(!true)
+
+let name = null
+
+console.log(name??"guest")
+console.log(name)
+
+name ??="guest"
+
+console.log(name)
+
+//conditional ternary operators
+
+let age = 2;
+
+let result = age>=18? "adult":"minor"
+console.log(result)
+
+//unary operators
+
+console.log(+"6")
+
+console.log(10-"5")
+
+console.log(typeof 6)
+console.log(void 44)
+
