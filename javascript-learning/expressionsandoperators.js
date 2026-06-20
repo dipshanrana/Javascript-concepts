@@ -51,34 +51,53 @@
 
 //logical operators
 
-console.log(true&&false)
-console.log(true&&true)
+// console.log(true&&false)
+// console.log(true&&true)
 
-console.log(false|| true)
-console.log(!true)
+// console.log(false|| true)
+// console.log(!true)
 
-let name = null
+// let name = null
 
-console.log(name??"guest")
-console.log(name)
+// console.log(name??"guest")
+// console.log(name)
 
-name ??="guest"
+// name ??="guest"
 
-console.log(name)
+// console.log(name)
 
-//conditional ternary operators
+// //conditional ternary operators
 
-let age = 2;
+// let age = 2;
 
-let result = age>=18? "adult":"minor"
-console.log(result)
+// let result = age>=18? "adult":"minor"
+// console.log(result)
 
-//unary operators
+// //unary operators
 
-console.log(+"6")
+// console.log(+"6")
 
-console.log(10-"5")
+// console.log(10-"5")
 
-console.log(typeof 6)
-console.log(void 44)
+// console.log(typeof 6)
+// console.log(void 44)
 
+
+//comma operator
+
+// let x = (1,2,3,4)
+// console.log(x)
+
+let a,b;
+a = 1,b=2
+
+console.log(a,b)
+console.log(a)
+
+let x = 4
+let y = 39
+console.log(x,y)
+
+let m = "dipshan"
+let n = "ranabhat"
+console.log(m,n)
