@@ -88,16 +88,36 @@
 // let x = (1,2,3,4)
 // console.log(x)
 
-let a,b;
-a = 1,b=2
+// let a,b;
+// a = 1,b=2
 
-console.log(a,b)
-console.log(a)
+// console.log(a,b)
+// console.log(a)
 
-let x = 4
-let y = 39
-console.log(x,y)
+// let x = 4
+// let y = 39
+// console.log(x,y)
 
-let m = "dipshan"
-let n = "ranabhat"
-console.log(m,n)
+// let m = "dipshan"
+// let n = "ranabhat"
+// console.log(m,n)
+
+//Bitwise operators
+
+console.log(5&3)
+
+
+const bit =333333333333333333333333333n
+console.log(typeof bit)
+
+console.log("helloworld "+ 2026)
+
+console.log(null + "helloworld")
+console.log(undefined + "helloworld")
+
+console.log(true + "helloworld")
+
+
+let name = "dipshan"
+
+console.log(`Hello ${name} how you doing`)
