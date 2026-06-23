@@ -1,2 +1,4 @@
-console.log(e.name)
-// console.log(e.stack)
+
+// function greet(name){
+//     console.log("hello "+name)
+// }
