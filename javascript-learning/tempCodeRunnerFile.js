@@ -1,4 +1,4 @@
 
-// function greet(name){
-//     console.log("hello "+name)
-// }
+(function(name){
+    console.log("executed parameter")
+})()
