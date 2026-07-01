@@ -1,4 +1,4 @@
 
-(function(name){
-    console.log("executed parameter")
-})()
+// const user = {
+//     name: "dipshan"
+// }
