@@ -49,54 +49,68 @@
 //             console.log(error)
 //         })
 
-function login(){
-    return new Promise((resolve,reject)=>{
-        console.log("Logging in ...")
-        setTimeout(()=>{
-            resolve( console.log("User logged in"))
-        })
-    },1000)
+// function login(){
+//     return new Promise((resolve,reject)=>{
+//         console.log("Logging in ...")
+//         setTimeout(()=>{
+//             resolve( console.log("User logged in"))
+//         })
+//     },1000)
+// }
+
+
+// function getProfile(){
+//     return new Promise((resolve,reject)=>{
+//         console.log("Getting profile...")
+//         setTimeout(()=>{
+//             resolve({
+//                 id:1,
+//                 name:"dipshan"
+//             })
+//         },4000)
+//     })
+// }
+
+
+// function getPosts(profile){
+//     return new Promise((resolve,reject)=>{
+//         console.log("Getting posts for ",profile.name)
+
+//         setTimeout(()=>{
+//             resolve([
+//                 "JavaScript Basics",
+//                 "Learning Promises",
+//                 "Understanding Async/Await"
+//             ])
+//         })
+//     },7000)
+// }
+
+// function displayPosts(posts){
+//     console.log("Posts:")
+//     posts.forEach(post=>{
+//         console.log(post)
+//     })
+//     return posts;
+// }
+
+
+// login()
+//     .then(getProfile)
+//     .then(getPosts)
+//     .then(displayPosts)
+//     .catch(console.error)
+
+
+
+  const login =  setTimeout(() => {
+        console.log("helloworld")
+
+    }, 1000);
+    
+
+async function load(){
+    const user = await login;
+    console.log(user)
 }
-
-
-function getProfile(){
-    return new Promise((resolve,reject)=>{
-        console.log("Getting profile...")
-        setTimeout(()=>{
-            resolve({
-                id:1,
-                name:"dipshan"
-            })
-        },4000)
-    })
-}
-
-
-function getPosts(profile){
-    return new Promise((resolve,reject)=>{
-        console.log("Getting posts for ",profile.name)
-
-        setTimeout(()=>{
-            resolve([
-                "JavaScript Basics",
-                "Learning Promises",
-                "Understanding Async/Await"
-            ])
-        })
-    },7000)
-}
-
-function displayPosts(posts){
-    console.log("Posts:")
-    posts.forEach(post=>{
-        console.log(post)
-    })
-    return posts;
-}
-
-
-login()
-    .then(getProfile)
-    .then(getPosts)
-    .then(displayPosts)
-    .catch(console.error)
+load()
