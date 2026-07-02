@@ -17,3 +17,18 @@
     // console.log(toObj)
     // console.log(typeof toObj)
     // console.log(toObj.name)
+
+    // function calculator(a,b,operation){
+    //     operation(a,b);
+    // }
+
+    // function add(a,b,c){
+    //     console.log(a+b)
+    // }
+
+    // calculator(20,5,add)
+
+Promise.resolve(10).then(console.log);
+
+console.log("Hello");
+
